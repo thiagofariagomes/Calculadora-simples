@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+    font-family: "Inter", sans-serif;
+}
+
+body{
+    background-color: #a2a88f;
+}
+
+.container{
+    width: 400px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background-color: #DAE0CA;
+    text-align: center;
+    border-radius: 30px;
+}
+
+h1{
+    font-size: 30px;
+    margin-bottom: 50px;
+    font-weight: 600;
+    line-height: 40px;
+    color: #403B3B;
+}
+
+
+
+p{
+    margin-bottom: 20px;
+    margin-top: 15px;
+    color: #403B3B;
+    font-weight: 500;
+}
+
+#resultado{
+    font-weight: bold;
+}
+
+input{
+    padding: 5px;
+    border-radius: 10px;
+    border: none;
+    
+}
+
+input::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+}
+
+#operacao{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    padding: 6px;
+    text-align: center;
+    border-radius: 10px;
+    appearance: none;
+    cursor: pointer;
+}
+
+
+
+button{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: #0478F9;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #4394f1; 
+}
+
+button:active{
+    background-color: #0057bb;
+}

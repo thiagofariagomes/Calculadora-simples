@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora Simples</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <div class="container">
+        
+        <h1>Calculadora Simples</h1>
+
+        <div class="container.jr">
+
+            <p>Digite um número abaixo:</p>
+            <input id="n1" placeholder="Digite Número" type="number">
+
+            <p>Digite outro número:</p>
+            <input id="n2" placeholder="Digite segundo número" type="number">
+
+            <p>Selecione a Operação:</p>
+
+            <div id="operation">
+
+                <select id="operacao">
+                    <option value="soma">Soma</option>
+                    <option value="subtracao">Subtração</option>
+                    <option value="multiplicacao">Multiplicação</option>
+                    <option value="divisao">Divisão</option>
+                </select>
+
+                <button onclick="calc()">Calcular</button>
+
+            </div>    
+                
+            <p id="resultado"></p>
+                        
+        </div>
+
+    </div>
+    
+</body>
+<script src="./arquivo.js"></script>
+</html>
