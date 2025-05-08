@@ -52,8 +52,7 @@ function calc(){
 
     if (operation === "divisao" && valor2 === 0 ){
 
-        let nulo = document.getElementById("resultado").innerHTML = ("Error:Null");
-        document.getElementById("resultado").style.color = "red";
+        let nulo = document.getElementById("resultado").innerHTML = ("<style>color:red;</style>Error:Null");
         alert("Divisão por zero não é permitido")
 
     };
